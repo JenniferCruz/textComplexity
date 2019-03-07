@@ -11,7 +11,7 @@ See `config.js` to set up _port_ and _database connection url_ to match your loc
 A __MongoDB__ is used to stored the sample non-lexical words. To initialize the database run the following command:
 
 ```
-node seedDatabase.js 
+node src/seedDatabase.js 
 ```
 
 __note__: This will clear the database
