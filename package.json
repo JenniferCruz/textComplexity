@@ -1,0 +1,22 @@
+{
+  "name": "textcomplexity",
+  "version": "1.0.0",
+  "description": "VAI Developer Test 2",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha ./tests --recursive"
+  },
+  "author": "Jennifer Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "supertest": "^3.4.2"
+  }
+}
