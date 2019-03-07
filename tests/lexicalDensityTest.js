@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const lexicalDensity = require('../textComplexity/lexicalDensity')
+const lexicalDensity = require('../src/textComplexity/lexicalDensity')
 const { text1002Characters, text101Words, kimLovesCinema, noDensityText } = require('./sampleTexts.fixture')
 const nonLexicalWords = require('./nonLexicalWords.fixture')
 

@@ -1,9 +1,9 @@
 const expect = require('chai').expect
 const {text101Words, kimLovesCinema} = require('./sampleTexts.fixture')
 const request = require('supertest')
-const app = require('./../app')
-const initDatabase = require('./../seedDatabase')
-const config = require('./../config')
+const app = require('../src/app')
+const initDatabase = require('../src/seedDatabase')
+const config = require('../src/config')
 config.databaseName = 'textComplexityTestDB'
 
 describe('API', done => {

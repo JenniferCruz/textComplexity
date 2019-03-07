@@ -2,9 +2,9 @@
   "name": "textcomplexity",
   "version": "1.0.0",
   "description": "VAI Developer Test 2",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node ./src/app.js",
     "test": "mocha ./tests --recursive"
   },
   "author": "Jennifer Cruz",
